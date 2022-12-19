@@ -67,7 +67,7 @@ $('#share-share-button').on('click', () => {
     navigator.share({
         title: '',
         text: '',
-        url: '',
+        url: 'https://npchosting.com/links',
       })
       .then(() => console.log('Successful share'))
       .catch((error) => console.log('Error sharing', error));
